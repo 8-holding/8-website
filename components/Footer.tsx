@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__top">
           <div className="footer__brand">
-            <a href="#top" className="brand" aria-label="Eight — home">
+            <a href="/#top" className="brand" aria-label="Eight — home">
               <span className="brand__mark">8</span>
               <span>Eight</span>
             </a>
@@ -23,13 +23,13 @@ export default function Footer() {
             <h4>Company</h4>
             <ul>
               <li>
-                <a href="#about">About</a>
+                <a href="/#about">About</a>
               </li>
               <li>
-                <a href="#what-we-do">What We Do</a>
+                <a href="/#what-we-do">What We Do</a>
               </li>
               <li>
-                <a href="#approach">Approach</a>
+                <a href="/#approach">Approach</a>
               </li>
             </ul>
           </div>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h4>Connect</h4>
             <ul>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="/#contact">Contact</a>
               </li>
               <li>
                 <a href="mailto:info@8-holding.com">info@8-holding.com</a>
@@ -49,7 +49,10 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>© {YEAR} Eight. All rights reserved.</p>
+          <div className="footer__legal">
+            <span>© {YEAR} Eight. All rights reserved.</span>
+            <a href="/privacy">Privacy Policy</a>
+          </div>
           <div className="footer__social">
             <a
               href={LINKEDIN_URL}
