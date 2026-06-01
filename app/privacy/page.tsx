@@ -154,9 +154,10 @@ export default function PrivacyPolicy() {
 
             <h2>International Visitors</h2>
             <p>
-              Eight is based in Miami, Florida, United States. If you access the Site
-              from outside the United States, your information may be transferred to,
-              stored, and processed in the United States.
+              If you access the Site from outside the country where our service
+              providers operate, your information may be transferred to, stored, and
+              processed in a jurisdiction whose data protection laws differ from
+              those of your own.
             </p>
 
             <h2>Changes to This Policy</h2>
@@ -172,8 +173,6 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Eight</strong>
-              <br />
-              Miami, Florida, USA
               <br />
               <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
             </p>

@@ -1,8 +1,8 @@
 # Eight — Website
 
-The marketing website for **Eight**, a Miami-based strategic holding & operating
-company. Built with **Next.js 14** (App Router) and exported as a fully static
-site for hosting on **GitHub Pages**.
+The marketing website for **Eight**, a sales services company that helps
+businesses build, scale, and strengthen their sales. Built with **Next.js 14**
+(App Router) and exported as a fully static site for hosting on **GitHub Pages**.
 
 - **Live domain:** [www.8-holding.com](https://www.8-holding.com)
 - **Stack:** Next.js (static export) · React · TypeScript · vanilla CSS design system
@@ -47,7 +47,6 @@ Requirements: **Node.js 18.17+** (Node 20 recommended).
 ├── components/
 │   ├── Nav.tsx           # sticky header + mobile menu
 │   ├── Hero.tsx          # headline + CTAs
-│   ├── Stats.tsx         # numbers strip
 │   ├── WhatWeDo.tsx      # service cards
 │   ├── Approach.tsx      # principles ("Why Eight")
 │   ├── About.tsx         # mission / vision
@@ -75,13 +74,12 @@ All copy is plain text inside the components — no CMS. Common edits:
 | Service cards              | the `SERVICES` array in `components/WhatWeDo.tsx` |
 | Principles ("Why Eight")   | the `PRINCIPLES` array in `components/Approach.tsx` |
 | About / mission text       | `components/About.tsx`                            |
-| Stats strip numbers        | the `STATS` array in `components/Stats.tsx`       |
-| Contact email / location   | `components/Contact.tsx` & `components/Footer.tsx` |
+| Contact email              | `components/Contact.tsx` & `components/Footer.tsx` |
 | LinkedIn URL               | `LINKEDIN_URL` in `components/Footer.tsx`         |
 | Colors / typography        | the `:root` variables in `app/globals.css`        |
 | SEO title / description    | `app/layout.tsx`                                  |
 
-> **Placeholder content:** the stats, mission text, and service descriptions are
+> **Placeholder content:** the mission text and service descriptions are
 > realistic placeholders. Review them before going live.
 
 ---

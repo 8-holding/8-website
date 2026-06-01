@@ -2,20 +2,20 @@ import Reveal from './Reveal';
 
 const PRINCIPLES = [
   {
-    title: 'Permanence over exits',
-    body: 'We buy to hold. Freed from fund timelines, we make decisions on a horizon measured in decades — investing through cycles instead of around them.',
+    title: 'Revenue, not activity',
+    body: 'We measure ourselves by the results that matter to you — customers won and revenue grown — not by busywork. Every effort ties back to outcomes.',
   },
   {
-    title: 'Alignment of interests',
-    body: 'We back the operators who know their business best, structure incentives around long-term value, and act as true partners rather than passive shareholders.',
+    title: 'Tailored to your business',
+    body: 'No two companies sell the same way. We learn how your market, product, and buyers work, then shape an approach that fits rather than forcing a template.',
   },
   {
-    title: 'Operational depth',
-    body: 'Our team has built and run companies. We bring that experience to the boardroom and the floor alike — practical, hands-on, and respectful of what already works.',
+    title: 'Hands-on execution',
+    body: 'We do not just advise from the sidelines. We roll up our sleeves and work the pipeline alongside your team — practical, accountable, and in the room.',
   },
   {
-    title: 'Disciplined conviction',
-    body: 'We say no often and yes rarely. When we commit, it is with full conviction, durable capital, and the patience to let great businesses compound.',
+    title: 'A genuine partnership',
+    body: 'We act as an extension of your team, sharing your goals and your incentives, and building sales capability that stays with you for the long run.',
   },
 ];
 
@@ -32,8 +32,7 @@ export default function Approach() {
           </Reveal>
           <Reveal delay={120}>
             <p>
-              Four principles guide every business we hold and every decision we
-              make as owners.
+              A few principles guide how we work with every company we partner with.
             </p>
           </Reveal>
         </div>

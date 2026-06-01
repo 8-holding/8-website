@@ -57,9 +57,9 @@ export default function Contact() {
             <p className="eyebrow eyebrow--light">Contact</p>
             <h2>Let&rsquo;s start a conversation.</h2>
             <p>
-              Whether you are a founder considering a permanent home for your
-              business or a partner exploring opportunities, we would be glad to
-              hear from you.
+              Whether you want to grow revenue, build a sales team, or open a new
+              market, we would be glad to hear about your business and how we can
+              help.
             </p>
 
             <div className="contact__detail">
@@ -69,14 +69,6 @@ export default function Contact() {
                 <div className="contact__detail-value">
                   <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
                 </div>
-              </div>
-            </div>
-
-            <div className="contact__detail">
-              <IconPin />
-              <div>
-                <div className="contact__detail-label">Office</div>
-                <div className="contact__detail-value">Miami, Florida, USA</div>
               </div>
             </div>
           </div>
@@ -174,25 +166,6 @@ function IconMail() {
     >
       <rect x="3" y="5" width="18" height="14" rx="2" />
       <path d="m3 7 9 6 9-6" />
-    </svg>
-  );
-}
-
-function IconPin() {
-  return (
-    <svg
-      width="22"
-      height="22"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
-      <circle cx="12" cy="10" r="3" />
     </svg>
   );
 }

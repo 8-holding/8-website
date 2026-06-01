@@ -9,20 +9,20 @@ export default function Hero() {
 
       <div className="container hero__inner">
         <Reveal>
-          <p className="eyebrow eyebrow--light">Strategic Holding &amp; Operating Company</p>
+          <p className="eyebrow eyebrow--light">Sales Services for Companies</p>
         </Reveal>
 
         <Reveal delay={80}>
           <h1>
-            Building enduring value in <em>exceptional</em> businesses.
+            Sales that move your business <em>forward</em>.
           </h1>
         </Reveal>
 
         <Reveal delay={160}>
           <p className="hero__sub">
-            Eight acquires, builds, and operates a select portfolio of companies for
-            the long term. We bring disciplined capital, operational depth, and an
-            owner&rsquo;s patience to every business we hold.
+            Eight helps companies build, scale, and strengthen their sales. From
+            strategy to execution, we partner with you to win customers, open new
+            markets, and grow revenue with discipline.
           </p>
         </Reveal>
 

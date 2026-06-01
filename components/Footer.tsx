@@ -14,8 +14,8 @@ export default function Footer() {
               <span>Eight</span>
             </a>
             <p>
-              A strategic holding company acquiring, building, and operating
-              exceptional businesses for the long term.
+              Sales services for companies — building, scaling, and strengthening
+              sales so businesses can grow revenue and reach new markets.
             </p>
           </div>
 
@@ -43,7 +43,6 @@ export default function Footer() {
               <li>
                 <a href="mailto:info@8-holding.com">info@8-holding.com</a>
               </li>
-              <li>Miami, Florida, USA</li>
             </ul>
           </div>
         </div>

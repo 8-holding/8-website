@@ -2,24 +2,24 @@ import Reveal from './Reveal';
 
 const SERVICES = [
   {
-    title: 'Acquisitions',
-    body: 'We acquire established, profitable businesses with durable advantages and capable teams — partnering with founders and owners seeking a permanent home for what they have built.',
-    icon: <IconAcquire />,
+    title: 'Sales Strategy',
+    body: 'We define your go-to-market approach — positioning, target segments, pricing, and the clearest path to revenue — so every sales effort is aimed where it matters most.',
+    icon: <IconAdvisory />,
   },
   {
-    title: 'Operating Stewardship',
-    body: 'As long-term owners, we work alongside management to strengthen operations, sharpen strategy, and invest behind growth — without the pressure of a forced exit.',
+    title: 'Sales Team Building',
+    body: 'We help you recruit, train, and develop high-performing sales teams, and put the structure, coaching, and incentives in place to keep them performing.',
     icon: <IconOperate />,
   },
   {
-    title: 'Capital Allocation',
-    body: 'We deploy patient, permanent capital across the portfolio, reinvesting cash flows where returns are highest and compounding value over decades, not quarters.',
+    title: 'Lead Generation & Pipeline',
+    body: 'We build a reliable pipeline — generating qualified leads, opening doors, and creating a steady flow of opportunities for your business to convert.',
     icon: <IconCapital />,
   },
   {
-    title: 'Strategic Advisory',
-    body: 'Our team brings institutional rigor to the businesses we hold — guiding M&A, market expansion, and transformation with the perspective of a committed owner.',
-    icon: <IconAdvisory />,
+    title: 'Sales Execution',
+    body: 'We manage the sales process end to end — from first contact to close — and bring the discipline and follow-through that turn prospects into long-term customers.',
+    icon: <IconAcquire />,
   },
 ];
 
@@ -32,13 +32,13 @@ export default function WhatWeDo() {
             <p className="eyebrow">What We Do</p>
           </Reveal>
           <Reveal delay={60}>
-            <h2>A holding company built for the long term.</h2>
+            <h2>Sales services built around your business.</h2>
           </Reveal>
           <Reveal delay={120}>
             <p>
-              Eight is not a fund with a clock. We own the businesses we acquire
-              indefinitely, aligning our interests with the people who run them and
-              the customers they serve.
+              We work as an extension of your team — covering the full sales journey,
+              from shaping the strategy to closing the deal, and tailoring our
+              approach to how your business actually grows.
             </p>
           </Reveal>
         </div>

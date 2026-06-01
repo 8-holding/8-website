@@ -24,20 +24,20 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Eight — Strategic Holding & Operating Company',
+    default: 'Eight — Sales Services for Companies',
     template: '%s · Eight',
   },
   description:
-    'Eight is a Miami-based holding company that acquires, builds, and operates exceptional businesses for the long term — disciplined capital, hands-on stewardship, durable value.',
+    'Eight provides sales services for companies — building, scaling, and strengthening sales so businesses can grow revenue, win customers, and reach new markets.',
   keywords: [
     'Eight',
     '8-holding',
-    'holding company',
-    'operating company',
-    'strategic advisory',
-    'private investment',
-    'long-term capital',
-    'Miami',
+    'sales services',
+    'sales strategy',
+    'revenue growth',
+    'business development',
+    'sales outsourcing',
+    'go-to-market',
   ],
   authors: [{ name: 'Eight' }],
   creator: 'Eight',
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: 'Eight',
-    title: 'Eight — Strategic Holding & Operating Company',
+    title: 'Eight — Sales Services for Companies',
     description:
-      'A Miami-based holding company that acquires, builds, and operates exceptional businesses for the long term.',
+      'Sales services for companies — building, scaling, and strengthening sales so businesses can grow revenue and reach new markets.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eight — Strategic Holding & Operating Company',
+    title: 'Eight — Sales Services for Companies',
     description:
-      'A Miami-based holding company that acquires, builds, and operates exceptional businesses for the long term.',
+      'Sales services for companies — building, scaling, and strengthening sales so businesses can grow revenue and reach new markets.',
   },
   robots: {
     index: true,
@@ -79,13 +79,7 @@ const jsonLd = {
   url: siteUrl,
   email: 'info@8-holding.com',
   description:
-    'Eight is a holding company that acquires, builds, and operates exceptional businesses for the long term.',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Miami',
-    addressRegion: 'FL',
-    addressCountry: 'US',
-  },
+    'Eight provides sales services for companies — building, scaling, and strengthening sales so businesses can grow revenue and reach new markets.',
 };
 
 export default function RootLayout({
