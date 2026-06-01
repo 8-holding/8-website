@@ -2,7 +2,7 @@
   "name": "eight-holding-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Eight — Strategic holding & operating company. Marketing website.",
+  "description": "Eight — Sales services for companies. Marketing website.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -596,61 +596,6 @@ p {
   }
 }
 
-/* ── Stat strip ───────────────────────────────────────────────────────── */
-.stats {
-  border-top: 1px solid var(--line-dark);
-  background: var(--navy-900);
-  color: #fff;
-}
-
-.stats__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.stat {
-  padding: clamp(2rem, 4vw, 3rem) clamp(1rem, 2vw, 2rem);
-  border-right: 1px solid var(--line-dark);
-  text-align: center;
-}
-
-.stat:last-child {
-  border-right: none;
-}
-
-.stat__num {
-  font-family: var(--font-serif);
-  font-size: clamp(2.2rem, 4vw, 3rem);
-  font-weight: 500;
-  color: #fff;
-  line-height: 1;
-}
-
-.stat__num em {
-  color: var(--gold-soft);
-  font-style: normal;
-}
-
-.stat__label {
-  margin-top: 0.65rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-@media (max-width: 720px) {
-  .stats__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .stat:nth-child(2) {
-    border-right: none;
-  }
-  .stat:nth-child(1),
-  .stat:nth-child(2) {
-    border-bottom: 1px solid var(--line-dark);
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════
    What We Do — cards
    ═══════════════════════════════════════════════════════════════════════ */
