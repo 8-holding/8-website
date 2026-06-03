@@ -43,6 +43,11 @@ export default function Footer() {
               <li>
                 <a href="mailto:info@8-holding.com">info@8-holding.com</a>
               </li>
+              <li>
+                7901 4th St N, STE 300
+                <br />
+                St. Petersburg, FL 33702
+              </li>
             </ul>
           </div>
         </div>

@@ -174,6 +174,10 @@ export default function PrivacyPolicy() {
             <p>
               <strong>Eight</strong>
               <br />
+              7901 4th St N, STE 300
+              <br />
+              St. Petersburg, FL 33702
+              <br />
               <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
             </p>
 

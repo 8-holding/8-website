@@ -71,6 +71,18 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
+            <div className="contact__detail">
+              <IconPin />
+              <div>
+                <div className="contact__detail-label">Office</div>
+                <div className="contact__detail-value">
+                  7901 4th St N, STE 300
+                  <br />
+                  St. Petersburg, FL 33702
+                </div>
+              </div>
+            </div>
           </div>
 
           <form className="form" onSubmit={handleSubmit} noValidate>
@@ -166,6 +178,25 @@ function IconMail() {
     >
       <rect x="3" y="5" width="18" height="14" rx="2" />
       <path d="m3 7 9 6 9-6" />
+    </svg>
+  );
+}
+
+function IconPin() {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
+      <circle cx="12" cy="10" r="3" />
     </svg>
   );
 }

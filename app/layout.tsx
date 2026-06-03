@@ -80,6 +80,14 @@ const jsonLd = {
   email: 'info@8-holding.com',
   description:
     'Eight provides sales services for companies — building, scaling, and strengthening sales so businesses can grow revenue and reach new markets.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '7901 4th St N, STE 300',
+    addressLocality: 'St. Petersburg',
+    addressRegion: 'FL',
+    postalCode: '33702',
+    addressCountry: 'US',
+  },
 };
 
 export default function RootLayout({
